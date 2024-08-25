@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 header{
     padding: 40px;
 }
@@ -11,6 +12,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -41,21 +48,20 @@ h2{
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
-    
+    padding: 50px;
     display: flex;
-    flex: 0 0 20px;
+    width: 100%;
     justify-content: center;
 }
 
 .quotee{
     align-self: flex-end;
     font-weight: 800;
-    padding: 20px;
+    height: 30px;
     margin-left: -250px;
 }
 
 .quote-container p{
-    padding: 50px;
     width: 600px;
 }
 
@@ -79,7 +85,6 @@ h2{
     justify-content: center;
     padding: 20px;
     gap: 20px;
-
 }
 
 .image-info-pair img{
@@ -98,12 +103,12 @@ header {
     padding-top: 20px;
 }
 
-.CTA {
+.signup {
     display: flex;
     justify-content: space-around;
 }
 
-.CTA-left {
+.signup-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,13 +117,13 @@ header {
     flex-basis: 465px;
 }
 
-.CTA-right {
+.signup-right {
     margin-top: 50px;
     margin-left: -200px;
     margin-bottom: 50px;
 }
 
-button{
+header button{
     flex: 0 0 32px;
     margin-top: 10px;
     padding: 5px 15px;
@@ -126,6 +131,15 @@ button{
     border: none;
     color: #F9FAF8;
     font-weight: 600;
+    border-radius: 6px;
+}
+
+main button{
+    flex: 0 0 32px;
+    padding: 5px 15px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
     border-radius: 6px;
 }
 
@@ -141,4 +155,29 @@ ul {
 .image-info-pair{
     display: flex;
     flex-direction: col;
+}
+
+
+
+.CTA-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    width: 800px;
+    height: 100px;
+    margin: 80px;
+    padding: 20px;
+}
+
+.CTA-text{
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    padding: 20px 0px;
+}
+
+h3{
+    margin: 0;
+    font-size: 24px;
 }
