@@ -15,6 +15,13 @@ h1 {
     font-size: 24px;
 }
 
+h2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 32px;
+}
+
 .hero-main-text {
     color: #F9FAF8;
     font-size: 48px;
@@ -24,6 +31,20 @@ h1 {
 .hero-sub-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-info-pair-container{
+    display: flex;
+}
+
+.image-info-pair{
+    flex-wrap: wrap;
 }
 
 header {
@@ -58,7 +79,7 @@ header {
 }
 
 button{
-    flex: 0 0 auto;
+    flex: 0 0 32px;
     margin-top: 10px;
     padding: 5px 15px;
     background-color: #3882F6;
@@ -75,4 +96,9 @@ ul {
     justify-content: center;
     list-style: none;
     gap: 16px;
+}
+
+.image-info-pair{
+    display: flex;
+    flex-direction: col;
 }
